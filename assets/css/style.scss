@@ -4,11 +4,16 @@
 @import "{{ site.theme }}";
 
 $fonts: Helvetica, Arial, sans-serif;
-
+$text_colour: #304048;
 body {
   background-color: #e9ede5;
   padding:50px;
   font: 14px/1.5 $fonts;
-  color:#304048;
+  color: $text_colour;
   font-weight:400;
+}
+
+a {
+  color: $text_colour;
+  text-decoration:none;
 }
