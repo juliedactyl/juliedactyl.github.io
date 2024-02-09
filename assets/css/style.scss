@@ -1,0 +1,14 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$fonts: Helvetica, Arial, sans-serif;
+
+body {
+  background-color: #e9ede5;
+  padding:50px;
+  font: 14px/1.5 $fonts;
+  color:#304048;
+  font-weight:400;
+}
