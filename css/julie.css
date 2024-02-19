@@ -23,9 +23,10 @@ a:hover {
 
 .topnav {
   margin: auto;
-  width: 1000px;
+  width: 50%;
+  height: 200px;
   overflow: hidden;
-  background-color: rgba(1,1,1,0);
+  background-image: url(/images/headerimage.png);
 }
 
 .topnav h1 {
