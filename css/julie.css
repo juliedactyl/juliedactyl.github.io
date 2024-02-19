@@ -22,8 +22,8 @@ a:hover {
 }
 
 .topnav {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  width: 50px;
   overflow: hidden;
   background-color: rgba(1,1,1,0);
 }
