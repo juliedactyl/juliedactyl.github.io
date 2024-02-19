@@ -21,6 +21,13 @@ a:hover {
   color: white;
 }
 
+.portrait {
+  float:left;
+  width:150px;
+  height:150px;
+  padding: 14px 16px;
+}
+
 .topnav {
   margin: auto;
   width: 50%;
