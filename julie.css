@@ -1,0 +1,14 @@
+/* This is my own style file */
+
+body {
+  margin: 25px;
+  background-color: rgb(201,211,190);
+  font-family: garamond, arial, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 35px;
+  font_weight: normal;
+  margin-top: 5px;
+}
