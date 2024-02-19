@@ -28,6 +28,10 @@ a:hover {
   background-color: rgba(1,1,1,0);
 }
 
+.topnav h1 {
+  color: white;
+}
+
 .topnav a {
   float: none;
   color: rgba(255,255,255,1);
