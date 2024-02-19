@@ -22,6 +22,7 @@ a:hover {
 }
 
 .topnav {
+  margin: auto;
   overflow: hidden;
   background-color: rgba(1,1,1,0);
 }
