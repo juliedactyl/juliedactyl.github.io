@@ -64,7 +64,8 @@ ul {
 .header {
   background-color: #ffffff;
   min-height: 150px;
-  width: 100%;
+  width: 90%;
+  padding: 4px 14px;
 }
 
 .box {
