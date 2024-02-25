@@ -39,12 +39,12 @@ ul {
   margin: auto;
   width: 50%;
   overflow: hidden;
-  background-color: rgba(1,1,1,0);
+  background-color: rgba(1,1,1,0.3);
 }
 
 .topnav a {
   float: left;
-  color: rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.8);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
