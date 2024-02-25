@@ -29,6 +29,7 @@ a:hover {
 }
 
 .topnav {
+  position: fixed;
   margin: auto;
   width: 50%;
   overflow: hidden;
@@ -52,4 +53,8 @@ a:hover {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+
+.header {
+  background-color: #ffffff;
 }
