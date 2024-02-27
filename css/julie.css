@@ -62,18 +62,19 @@ ul {
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #ffffff22;
   min-height: 150px;
   width: 90%;
   padding: 4px 14px;
 }
 
 div.gallery {
+  padding: 4px 14px;
   border: 1px solid #ccc;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 0px solid #777;
 }
 
 div.gallery img {
