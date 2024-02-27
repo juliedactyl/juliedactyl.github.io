@@ -36,6 +36,7 @@ ul {
 }
 
 .topnav {
+  width: 100%;
   position: fixed;
   overflow: hidden;
   background-color: rgba(1,1,1,0);
