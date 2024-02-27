@@ -72,10 +72,6 @@ div.gallery {
   border: 0px solid #ccc;
 }
 
-div.gallery:hover {
-  border: 0px solid #777;
-}
-
 div.gallery img {
   width: 100%;
   height: auto;
