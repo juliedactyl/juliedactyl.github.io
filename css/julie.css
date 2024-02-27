@@ -29,10 +29,10 @@ ul {
 }
 
 .portrait {
-  float:left;
-  width:100px;
-  height:100px;
-  padding: 14px 16px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding: 10px 10px;
 }
 
 .topnav {
@@ -69,7 +69,6 @@ ul {
 }
 
 div.gallery {
-  padding: 10px 0px;
   border: 1px solid #ccc;
 }
 
