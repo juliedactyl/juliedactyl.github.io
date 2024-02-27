@@ -37,9 +37,9 @@ ul {
 .topnav {
   position: fixed;
   margin: auto;
-  width: 50%;
+  min-width: 20%;
   overflow: hidden;
-  background-color: rgba(1,1,1,0.3);
+  background-color: rgba(1,1,1,0);
 }
 
 .topnav a {
@@ -57,7 +57,7 @@ ul {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: rgba(1,1,1,0.2);
   color: white;
 }
 
