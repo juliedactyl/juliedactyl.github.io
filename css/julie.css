@@ -70,4 +70,6 @@ ul {
 
 .box {
   height: 50px;
+  width: 70%;
+  margin: auto;
 }
