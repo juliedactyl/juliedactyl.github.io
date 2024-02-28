@@ -30,8 +30,15 @@ ul {
 
 .portrait {
   float: left;
-  width: 100px;
-  height: 100px;
+  max-width: 150px;
+  aspect-ratio: 1;
+  padding: 10px 10px;
+}
+
+.sideimage {
+  float: left;
+  max-width: 150px;
+  aspect-ratio: 3/4;
   padding: 10px 10px;
 }
 
