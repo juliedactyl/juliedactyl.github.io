@@ -37,9 +37,10 @@ ul {
 
 .sideimage {
   float: left;
-  max-width: 150px;
+  max-width: 300px;
   aspect-ratio: 3/4;
-  padding: 10px 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .topnav {
