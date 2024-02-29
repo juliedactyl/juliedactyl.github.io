@@ -84,14 +84,8 @@ ul {
 
 .container {
   display: flex;
-  max-width: 100%;
   flex-flow: row wrap;
   justify-content: flex-start;
-}
-
-.item {
-  /*order: 3;  default is 0 */
-  flex: 1 2 20%
 }
 
 div.gallery {
@@ -101,10 +95,6 @@ div.gallery {
 div.gallery img {
   width: 100%;
   height: auto;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .responsive {
