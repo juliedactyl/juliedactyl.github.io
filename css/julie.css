@@ -84,7 +84,7 @@ ul {
 
 .container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: flex-start;
 }
 
