@@ -88,6 +88,10 @@ ul {
   justify-content: flex-start;
 }
 
+.item {
+  order: 3; /* default is 0 */
+}
+
 div.gallery {
   border: 0px solid #ccc;
 }
