@@ -98,7 +98,8 @@ div.gallery img {
 }
 
 .responsive {
-  flex: 1 1 33.332%;
+  flex: 1 1 0;
+  /* max-width: 33.332%; */
 }
 
 @media only screen and (max-width: 700px) {
