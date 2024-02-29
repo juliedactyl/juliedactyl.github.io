@@ -82,6 +82,12 @@ ul {
   padding: 10px 14px;
 }
 
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+
 div.gallery {
   border: 0px solid #ccc;
 }
@@ -89,11 +95,6 @@ div.gallery {
 div.gallery img {
   width: 100%;
   height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
 }
 
 * {
