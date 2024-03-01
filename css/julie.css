@@ -88,37 +88,22 @@ ul {
   justify-content: flex-start;
 }
 
-div.gallery {
-  border: 0px solid #ccc;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.responsive {
-  flex: 1 1 0;
-  /* max-width: 33.332%; */
+.container img {
+  max-width: 33%;
+  margin-top: 0px;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.999%;
-    margin: 0px 0;
+	.container img {
+    max-width: 50%;
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+@media only screen and (max-width: 400px) {
+	.container img {
+    max-width: 100%;
+ }
 }
 
 .box {
