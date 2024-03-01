@@ -33,6 +33,7 @@ ul {
   max-width: 150px;
   aspect-ratio: 1;
   padding: 10px 10px;
+  border-radius: 50%;
 }
 
 .sideimage {
@@ -89,19 +90,24 @@ ul {
 }
 
 .container img {
+  max-width: 100%;
+  aspect-ratio: 4/3
+}
+
+.container > div {
   max-width: 33%;
   margin-top: 0px;
   vertical-align: middle;
 }
 
 @media only screen and (max-width: 700px) {
-	.container img {
+	.container > div {
     max-width: 50%;
   }
 }
 
 @media only screen and (max-width: 400px) {
-	.container img {
+	.container > div {
     max-width: 100%;
  }
 }
