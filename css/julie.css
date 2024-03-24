@@ -79,8 +79,8 @@ ul {
 .header {
   background-color: #ffffffaa;
   min-height: 170px;
-  width: 90%;
-  padding: 10px 14px;
+  max-width: 99%;
+  padding: 14px 14px;
 }
 
 .container {
@@ -121,4 +121,49 @@ ul {
 .footer {
   text-align: left;
   margin-top: 20px;
+}
+
+.social-flex-container { 
+  padding: 10px 10px;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.fa {
+  padding: 20px;
+  min-width: 30px;
+  aspect-ratio: 1;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  background: rgb(221,231,210);   
+}
+
+.fa-envelope {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-orcid {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
 }
