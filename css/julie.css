@@ -36,14 +36,34 @@ ul {
   border-radius: 50%;
 }
 
-.sideimage {
+.about-flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+
+.about-flex-container img {
   float: left;
   max-width: 300px;
+  max-height: 400px;
   aspect-ratio: 3/4;
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.flex-item-right {
+  padding: 10px;
+  flex: 70%;
+}
+
+@media (max-width: 800px) {
+  .about-flex-container {
+	  flex-direction: column;
+  }
+}
+
 
 .topnav {
   width: 100%;
