@@ -58,12 +58,6 @@ ul {
   flex: 70%;
 }
 
-@media (max-width: 800px) {
-  .about-flex-container {
-	  flex-direction: column;
-  }
-}
-
 
 .topnav {
   width: 100%;
@@ -122,14 +116,25 @@ ul {
 
 @media only screen and (max-width: 700px) {
 	.container > div {
-    max-width: 50%;
-  }
+		max-width: 50%;
+  	}
+	.about-flex-container {
+		flex-direction: column;
+  	}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
 	.container > div {
-    max-width: 100%;
- }
+		max-width: 100%;
+ 	}
+ 	.social-flex-container {
+		flex-flow: row wrap;
+		justify-content: flex-start;
+	}
+        .header img {
+                max-width: 90%;
+        }
+
 }
 
 .box {
